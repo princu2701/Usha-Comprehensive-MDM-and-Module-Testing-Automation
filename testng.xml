@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="VendorCreationModule.FinalModuleCheck"/>
+      <class name="VendorCreationModule.VendorModifications"/>
+      <class name="VendorCreationModule.LoginModuleOnly"/>
+      <class name="VendorCreationModule.CustomertoVendor2"/>
+      <class name="VendorCreationModule.VendorCreationMduleCovergae"/>
+      <class name="VendorCreationModule.DashboardFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

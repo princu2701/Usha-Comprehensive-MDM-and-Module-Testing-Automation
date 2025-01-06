@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="VendorCreationModule.VendorModifications">
+        <methods>
+          <include name="teardown"/>
+          <include name="scenario4"/>
+          <include name="scenario3"/>
+          <include name="scenario1"/>
+          <include name="scenario2"/>
+          <include name="loginwork"/>
+        </methods>
+      </class> <!-- VendorCreationModule.VendorModifications -->
+      <class name="VendorCreationModule.DashboardFunctionality">
+        <methods>
+          <include name="scenario8"/>
+          <include name="scenario9"/>
+          <include name="start"/>
+          <include name="scenario2"/>
+          <include name="scenario3"/>
+          <include name="scenario10"/>
+          <include name="scenario1"/>
+          <include name="scenario6"/>
+          <include name="scenario7"/>
+          <include name="teardown"/>
+          <include name="scenario4"/>
+          <include name="scenario5"/>
+        </methods>
+      </class> <!-- VendorCreationModule.DashboardFunctionality -->
+      <class name="VendorCreationModule.FinalModuleCheck">
+        <methods>
+          <include name="case5"/>
+          <include name="case2"/>
+          <include name="case3"/>
+          <include name="endreport"/>
+          <include name="startup"/>
+          <include name="case6"/>
+          <include name="case7"/>
+          <include name="case4"/>
+          <include name="case1"/>
+          <include name="reporting"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- VendorCreationModule.FinalModuleCheck -->
+      <class name="VendorCreationModule.VendorCreationMduleCovergae">
+        <methods>
+          <include name="case6"/>
+          <include name="case7"/>
+          <include name="case4"/>
+          <include name="case12"/>
+          <include name="case5"/>
+          <include name="case2"/>
+          <include name="case3"/>
+          <include name="case16"/>
+          <include name="case1"/>
+          <include name="case13"/>
+          <include name="case14"/>
+          <include name="case11"/>
+          <include name="case17"/>
+          <include name="case8"/>
+          <include name="case15"/>
+          <include name="case9"/>
+          <include name="case10"/>
+          <include name="teardown"/>
+          <include name="loggingprocess"/>
+        </methods>
+      </class> <!-- VendorCreationModule.VendorCreationMduleCovergae -->
+      <class name="VendorCreationModule.CustomertoVendor2">
+        <methods>
+          <include name="case9"/>
+          <include name="case8"/>
+          <include name="case11"/>
+          <include name="reports"/>
+          <include name="case1"/>
+          <include name="case3"/>
+          <include name="case2"/>
+          <include name="case5"/>
+          <include name="case4"/>
+          <include name="case7"/>
+          <include name="case6"/>
+          <include name="teardown"/>
+          <include name="case10"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- VendorCreationModule.CustomertoVendor2 -->
+      <class name="VendorCreationModule.LoginModuleOnly">
+        <methods>
+          <include name="teardown"/>
+          <include name="cases"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- VendorCreationModule.LoginModuleOnly -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
