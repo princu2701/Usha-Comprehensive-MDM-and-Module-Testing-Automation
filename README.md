@@ -16,8 +16,7 @@
 - **Programming Language**: Java  
 - **Automation Framework**: Selenium WebDriver with TestNG  
 - **Documentation**: Microsoft Excel (for bug reports and test cases)  
-- **Bug Tracking**: [JIRA/Bugzilla (specify if applicable)]  
-- **Other Tools**: Apache POI for Excel integration (if used)  
+- **Other Tools**: Apache POI for Excel integration  
 
 ## Project Highlights  
 - Delivered reliable test automation scripts for MDM systems and other modules.  
