@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="methods" thread-count="4">
+    <test name="ParallelTestExecution">
+        <classes>
+            <class name="CRAccountTestings.UHEIAccountWorks"/>
+            <class name="CRAccountTestings.USFIAccountWorks"/>
+            <class name="CRAccountTestings.UUFIAccountWorks"/>
+            <class name="CRAccountTestings.UWSTAccountWorks"/>
+        </classes>
+    </test>
+</suite>
