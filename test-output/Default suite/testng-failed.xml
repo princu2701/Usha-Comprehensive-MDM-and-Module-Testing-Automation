@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="CRAccountTestings.DealerPage">
         <methods>
           <include name="firstpage" invocation-numbers="0 1 2"/>
@@ -11,6 +12,15 @@
           <include name="login"/>
         </methods>
       </class> <!-- CRAccountTestings.DealerPage -->
+=======
+      <class name="MDM.CreditLimit">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="faultaddchecks"/>
+        </methods>
+      </class> <!-- MDM.CreditLimit -->
+>>>>>>> 884b86364575fa0615863e590eb0d10b208b787e
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,7 +1,15 @@
 package VendorCreationModule;
+<<<<<<< HEAD
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+=======
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.time.Duration;
+
+>>>>>>> 884b86364575fa0615863e590eb0d10b208b787e
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
